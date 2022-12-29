@@ -1,0 +1,28 @@
+[0.370s] Invoking command in '/root/ros2_ws/src/mypkg': PYTHONPATH=/root/ros2_ws/build/mypkg/prefix_override:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /root/ros2_ws/build/mypkg/build install --record /root/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.512s] running egg_info
+[0.512s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.513s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.513s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.513s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.513s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.514s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.515s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.515s] running build
+[0.515s] running build_py
+[0.515s] copying mypkg/talker.py -> /root/ros2_ws/build/mypkg/build/lib/mypkg
+[0.515s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.515s]   warnings.warn(
+[0.516s] running install
+[0.516s] running install_lib
+[0.516s] copying /root/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /root/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.516s] Sorry: IndentationError: unexpected indent (talker.py, line 1)
+[0.516s] byte-compiling /root/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.517s] running install_data
+[0.517s] copying package.xml -> /root/ros2_ws/install/mypkg/share/mypkg
+[0.517s] running install_egg_info
+[0.518s] removing '/root/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.518s] Copying ../../build/mypkg/mypkg.egg-info to /root/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.519s] running install_scripts
+[0.532s] Installing talker script to /root/ros2_ws/install/mypkg/lib/mypkg
+[0.533s] writing list of installed files to '/root/ros2_ws/build/mypkg/install.log'
+[0.551s] Invoked command in '/root/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/root/ros2_ws/build/mypkg/prefix_override:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /root/ros2_ws/build/mypkg/build install --record /root/ros2_ws/build/mypkg/install.log --single-version-externally-managed
